@@ -4,7 +4,6 @@ import pandas as pd
 from io import BytesIO
 from openai import AzureOpenAI
 from streamlit_ace import st_ace, KEYBINDINGS, LANGUAGES, THEMES
-from azure.core.credentials import AzureKeyCredential
 import json
 
 # Function to load employee data from Excel
@@ -322,4 +321,5 @@ elif st.session_state.page == "submission_complete":
             if key in st.session_state:
                 del st.session_state[key]
         st.session_state.page = "login"
+
         st.rerun()
