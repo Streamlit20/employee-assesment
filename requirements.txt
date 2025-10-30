@@ -2,6 +2,6 @@ streamlit
 openai
 streamlit-ace
 pandas
-openxyl
+openpyxl
 python-dotenv
 requests
