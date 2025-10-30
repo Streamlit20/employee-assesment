@@ -1,0 +1,7 @@
+streamlit 
+openai
+streamlit-ace
+pandas
+openxyl
+python-dotenv
+requests
